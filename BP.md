@@ -41,21 +41,20 @@ L’objectif : **valider l’intérêt, l’usage et la rétention** avant d’i
 
 * Vert énergie : `#00C853`
 * Bleu calme : `#2962FF`
-* Blanc / gris clair pour la lisibilité, fond sombre par défaut
+* Fond sombre par défaut (gris très foncé), texte blanc pour la lisibilité
 
 #### Style
 
 * Minimaliste
 * Icônes simples
 * Pas d’illustrations complexes
-
-#### Logo MVP
+* Logo simple (MVP) = Simple texte NewNRJ avec la police choisie
 
 ## 🏗️ Architecture MVP (Flet / FletX)
 
 ### Structure recommandée (FletX)
 
-```bash
+```mmarkdown
 /controllers      → logique
 /views            → écrans
 /models           → Habit, User (plus tard)
@@ -135,7 +134,7 @@ Juste l’essentiel pour valider l’idée.
 #### Obligatoires
 
 * [ ] Création / suppression d’habitudes
-* [ ] Stockage local (PostGres)
+* [ ] Stockage local (SQLite pour le MVP - Sera PostGres en Prod réelle)
 * [ ] Check‑in quotidien
 * [ ] Multi‑langue (4 langues)
 * [ ] UI simple et propre
@@ -223,8 +222,8 @@ Juste l’essentiel pour valider l’idée.
 * [ ] Remplir la fiche de conformité (permissions, contenu)
 * [ ] Remplir la classification du contenu
 * [ ] Définir les pays de distribution
-* [ ] Lancer une **Closed Testing Track**
-* [ ] Inviter 5–10 testeurs
+* [ ] Déployer en Closed Testing Track
+      (Google Playdemande d'inviter 5–10 testeurs)
 
 ### 5) Publication
 
