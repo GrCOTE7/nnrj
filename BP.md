@@ -81,6 +81,13 @@ Juste l’essentiel pour valider l’idée.
 
 ---
 
+### Préparation
+
+* [/] App : New version ? Oui : App → Install !
+* [ ] Git: Push Main → Auto New Version → Push on Ggle Drive - https://rclone.org
+* [ ] Faire un son au début et à la fin des 2 sessions
+
+ 🧩 Les 6 écrans minimum du MVP
 ### 🧩 Les 6 écrans minimum du MVP
 
 #### 1) Écran d’accueil / onboarding

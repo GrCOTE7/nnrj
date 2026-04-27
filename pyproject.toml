@@ -1,14 +1,13 @@
 
 [project]
-name = "sport"
+name = "UpU"
 version = "0.0.2"
-description = "Sport Timer"
+description = "Up U!"
 readme = "README.md"
-requires-python = ">=3.12"
-authors = [{ name = "Aadminli", email = "GrCOTE7@gmail.com" }]
+requires-python = ">=3.13"
+authors = [{ name = "GrCOTE7", email = "GrCOTE7@gmail.com" }]
 dependencies = [
     "flet",
-    "matplotlib>=3.10.8",
     "pymox_kit",
 ]
 
@@ -18,8 +17,8 @@ dev = ["flet[all]"]
 
 [tool.flet]
 org = "com.mycompany"
-product = "Sport"
-company = "COTE"
+product = "Up U!"
+company = "NewNRJ"
 copyright = "Copyright (C) 2026 by GrCOTE7"
 compile.app = true
 compile.packages = true

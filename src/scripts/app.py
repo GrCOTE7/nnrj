@@ -121,6 +121,6 @@ class App:
         j = datetime.now().day
         duree = j * 15
         # print(duree)
-        duree = 15
+        # duree = 15
 
         return duree // 2
