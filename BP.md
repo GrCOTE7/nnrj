@@ -75,7 +75,8 @@ Permettre à un utilisateur de :
 * [ ] Voir sa **progression**
 * [ ] Recevoir un **encouragement / feedback positif**
 
-**Rien de plus: MVP !**  
+**Rien de plus: MVP !**
+
 Pas de gamification, pas de badges, pas de statistiques avancées.  
 Juste l’essentiel pour valider l’idée.
 
@@ -83,8 +84,9 @@ Juste l’essentiel pour valider l’idée.
 
 ### Préparation
 
-* [/] App : New version ? Oui : App → Install !
+* [ ] Set App # 0.0.2 src/ dans nouvelle structure (Entry point = ./main)
 * [ ] Git: Push Main → Auto New Version → Push on Ggle Drive - https://rclone.org
+* [ ] App : New version ? Oui : App → Install !
 * [ ] Faire un son au début et à la fin des 2 sessions
 
  🧩 Les 6 écrans minimum du MVP
