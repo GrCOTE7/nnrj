@@ -4,7 +4,6 @@ import flet as ft
 class HabitCheckinView(ft.View):
     def __init__(self, page: ft.Page, app_controller):
         super().__init__(route="/checkin", bgcolor="#07112E")
-        self.page = page
         self.app_controller = app_controller
         self._build()
 

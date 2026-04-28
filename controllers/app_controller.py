@@ -15,11 +15,14 @@ class AppController:
         self.page.theme_mode = ft.ThemeMode.DARK
         self.page.bgcolor = "#07112E"
         self.page.on_route_change = self._route_change
-        self.go_to(self.page.route or "/")
+        self._render_route(self.page.route or "/")
 
     def _route_change(self, e: ft.RouteChangeEvent):
+        self._render_route(e.route or "/")
+
+    def _render_route(self, raw_route: str):
         self.page.views.clear()
-        route = (e.route or "/").split("?")[0]
+        route = raw_route.split("?")[0]
 
         if route == "/":
             self.page.views.append(OnboardingView(self.page, self))
@@ -32,6 +35,9 @@ class AppController:
         self.page.update()
 
     def go_to(self, route: str):
+        if (self.page.route or "/") == route:
+            self._render_route(route)
+            return
         self.page.run_task(self._push_route_async, route)
 
     async def _push_route_async(self, route: str):

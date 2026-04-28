@@ -6,7 +6,6 @@ from controllers.settings_controller import SettingsController
 class SettingsView(ft.View):
     def __init__(self, page: ft.Page, app_controller):
         super().__init__(route="/settings", bgcolor="#07112E")
-        self.page = page
         self.app_controller = app_controller
         self.settings_ctrl = SettingsController(page)
         self._build()
