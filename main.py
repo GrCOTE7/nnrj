@@ -14,7 +14,7 @@ def main(page: ft.Page):
 
     AppController(page, APP_NAME, VERSION)
 
-    print(gc7.curr_time(), f"- {APP_NAME} {VERSION} -", page.route, ">")
+    print(gc7.curr_time(), f"- {APP_NAME} - v{VERSION} -", page.route, ">")
 
 
 ft.run(main)
