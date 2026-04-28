@@ -70,7 +70,8 @@ L’objectif : **valider l’intérêt, l’usage et la rétention** avant d’i
 
 Permettre à un utilisateur de :
 
-* [ ] Créer **1 à 3 habitudes simples**
+* [ ] Créer des **habitudes simples**
+* [ ] En faire gérer une par l'App
 * [ ] Les **suivre quotidiennement**
 * [ ] Voir sa **progression**
 * [ ] Recevoir un **encouragement / feedback positif**
@@ -84,12 +85,16 @@ Juste l’essentiel pour valider l’idée.
 
 ### Préparation
 
-* [ ] Set App # 0.0.2 src/ dans nouvelle structure (Entry point = ./main)
+* [x] Set App # 0.0.2 src/ dans nouvelle structure (Entry point = ./main)
+* [ ] Refaire marcher l'app du compteur sport, selon la nouvelle porocédure:
+* [ ] 1 Enregistrer l'habit (h) en BdD (migration pdt mise au point)
+* [ ] 2 la mettre en avant dans toutes les pages (header)
+* [ ] 3 Le btn countdown fonctionnel
 * [ ] Git: Push Main → Auto New Version → Push on Ggle Drive - https://rclone.org
 * [ ] App : New version ? Oui : App → Install !
 * [ ] Faire un son au début et à la fin des 2 sessions
+* [ ] Faire tic tac les 10 dernières secoondes de chaque session
 
- 🧩 Les 6 écrans minimum du MVP
 ### 🧩 Les 6 écrans minimum du MVP
 
 #### 1) Écran d’accueil / onboarding
