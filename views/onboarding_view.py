@@ -15,6 +15,7 @@ class OnboardingView(ft.View):
                 content=ft.Column(
                     horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                     alignment=ft.MainAxisAlignment.CENTER,
+                    margin=ft.Margin.only(top=-50),
                     spacing=24,
                     controls=[
                         ft.Text(
@@ -22,6 +23,7 @@ class OnboardingView(ft.View):
                             size=54,
                             weight=ft.FontWeight.BOLD,
                             color="#00FF6A",
+                            # margin=ft.Margin.only(top=-42),
                         ),
                         ft.Text(
                             f"v {self.controller.version}",
