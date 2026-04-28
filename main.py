@@ -2,18 +2,19 @@ import flet as ft
 
 import tools.gc7 as gc7
 import tools.screen_utils as screen_utils
+from controllers.app_controller import AppController
 
-APP_NAME = "NewNRJ"
-VERSION = "0.0.1"
+APP_NAME = "Up U!"
+VERSION = "0.0.3"
 
 
 def main(page: ft.Page):
+    screen_utils.gc7_rules(page, left=1520)  # 1520 ou 1912
+    page.title = f"{APP_NAME} - v{VERSION}"
 
-    screen_utils.gc7_rules(page, left=1912)  # 1520 ou 1912
-    page.title = APP_NAME
+    AppController(page, APP_NAME, VERSION)
 
-    page.add(ft.Text(f"{APP_NAME} - {VERSION}"))
-    print(gc7.curr_time(), "-", page.route, "-", page.theme_mode, ">")
+    print(gc7.curr_time(), f"- {APP_NAME} {VERSION} -", page.route, ">")
 
 
 ft.run(main)

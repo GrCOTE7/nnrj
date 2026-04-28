@@ -1,5 +1,5 @@
-# Se placer dans le dossier "tutos"
-# Set-Location -Path "$PSScriptRoot\tutos"
+# Se placer dans la racine du projet (src reste une archive)
+Set-Location -Path "$PSScriptRoot\.."
 
-# Lancer l'app Flet via uv
-uv run --active flet run -r
+# Lancer explicitement l'app racine
+uv run --active flet run -r main.py
