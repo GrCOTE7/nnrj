@@ -5,7 +5,7 @@ class OnboardingView(ft.View):
     def __init__(self, page: ft.Page, controller):
         super().__init__(route="/", bgcolor="#07112E")
         self.controller = controller
-        print(controller.version)
+        # print(controller.version)
         self._build()
 
     def _build(self):
@@ -21,31 +21,35 @@ class OnboardingView(ft.View):
                             "Up U!",
                             size=54,
                             weight=ft.FontWeight.BOLD,
-                            color="#00C853",
+                            color="#00FF6A",
                         ),
                         ft.Text(
                             f"v {self.controller.version}",
                             size=12,
                             color="#FFFFFF",
                             text_align=ft.TextAlign.CENTER,
-                            margin=ft.Margin.only(top=-42, left=20)
+                            margin=ft.Margin.only(top=-42, left=20),
                         ),
                         ft.Text(
                             "Build new habits, boost your energy!",
                             size=16,
                             color="#FFFFFF",
                             text_align=ft.TextAlign.CENTER,
-                            margin=ft.Margin.only(top=-20)
+                            margin=ft.Margin.only(top=-20),
                         ),
                         ft.Button(
-                            "Start",
+                            "Live Better Now!",
                             on_click=lambda _: self.controller.go_to("/habits"),
-                            bgcolor="#00C853",
-                            color="#07112E",
                             style=ft.ButtonStyle(
+                                mouse_cursor=ft.MouseCursor.CLICK,
+                                bgcolor="#00FF6A",
+                                color="#07112E",
+                                text_style=ft.TextStyle(
+                                    weight=ft.FontWeight.BOLD, size=18
+                                ),
                                 shape=ft.RoundedRectangleBorder(radius=7),
                                 padding=ft.Padding.symmetric(
-                                    horizontal=44, vertical=21
+                                    horizontal=21, vertical=13
                                 ),
                             ),
                         ),
