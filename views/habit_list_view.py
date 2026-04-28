@@ -13,6 +13,12 @@ class HabitListView(ft.View):
     def _build(self):
         # TODO: implémenter la liste des habitudes
         self.controls = [
-            ft.AppBar(title=ft.Text("My Habits"), bgcolor="#07112E"),
+            ft.AppBar(
+                title=ft.TextButton(
+                    "My Habits",
+                    on_click=lambda _: self.app_controller.go_to("/"),
+                ),
+                bgcolor="#07112E",
+            ),
             ft.Text("Habit list — coming soon", color="#FFFFFF"),
         ]

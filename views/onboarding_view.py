@@ -34,6 +34,7 @@ class OnboardingView(ft.View):
                             size=16,
                             color="#FFFFFF",
                             text_align=ft.TextAlign.CENTER,
+                            margin=ft.margin.only(top=-20)
                         ),
                         ft.Button(
                             "Start",
@@ -41,9 +42,9 @@ class OnboardingView(ft.View):
                             bgcolor="#00C853",
                             color="#07112E",
                             style=ft.ButtonStyle(
-                                shape=ft.RoundedRectangleBorder(radius=10),
+                                shape=ft.RoundedRectangleBorder(radius=7),
                                 padding=ft.padding.symmetric(
-                                    horizontal=40, vertical=14
+                                    horizontal=44, vertical=21
                                 ),
                             ),
                         ),
