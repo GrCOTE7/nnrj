@@ -86,10 +86,10 @@ Juste l’essentiel pour valider l’idée.
 ### Préparation
 
 * [x] Set App # 0.0.2 src/ dans nouvelle structure (Entry point = ./main)
-* [ ] Refaire marcher l'app du compteur sport, selon la nouvelle porocédure:
 * [ ] 1 Enregistrer l'habit (h) en BdD (migration pdt mise au point)
 * [ ] 2 la mettre en avant dans toutes les pages (header)
 * [ ] 3 Le btn countdown fonctionnel
+* [ ] → Refaire marcher l'app du compteur sport, selon la nouvelle procédure
 * [ ] Git: Push Main → Auto New Version → Push on Ggle Drive - https://rclone.org
 * [ ] App : New version ? Oui : App → Install !
 * [ ] Faire un son au début et à la fin des 2 sessions
