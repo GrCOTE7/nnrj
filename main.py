@@ -5,7 +5,7 @@ import tools.screen_utils as screen_utils
 from controllers.app_controller import AppController
 
 APP_NAME = "Up U!"
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 
 
 def main(page: ft.Page):

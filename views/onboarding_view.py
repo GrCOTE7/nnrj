@@ -5,6 +5,7 @@ class OnboardingView(ft.View):
     def __init__(self, page: ft.Page, controller):
         super().__init__(route="/", bgcolor="#07112E")
         self.controller = controller
+        print(controller.version)
         self._build()
 
     def _build(self):
@@ -23,18 +24,18 @@ class OnboardingView(ft.View):
                             color="#00C853",
                         ),
                         ft.Text(
-                            f"v 0.0.3",
+                            f"v {self.controller.version}",
                             size=12,
                             color="#FFFFFF",
                             text_align=ft.TextAlign.CENTER,
-                            margin=ft.margin.only(top=-42, left=20)
+                            margin=ft.Margin.only(top=-42, left=20)
                         ),
                         ft.Text(
                             "Build new habits, boost your energy!",
                             size=16,
                             color="#FFFFFF",
                             text_align=ft.TextAlign.CENTER,
-                            margin=ft.margin.only(top=-20)
+                            margin=ft.Margin.only(top=-20)
                         ),
                         ft.Button(
                             "Start",
@@ -43,7 +44,7 @@ class OnboardingView(ft.View):
                             color="#07112E",
                             style=ft.ButtonStyle(
                                 shape=ft.RoundedRectangleBorder(radius=7),
-                                padding=ft.padding.symmetric(
+                                padding=ft.Padding.symmetric(
                                     horizontal=44, vertical=21
                                 ),
                             ),
