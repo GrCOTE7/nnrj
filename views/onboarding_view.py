@@ -17,13 +17,20 @@ class OnboardingView(ft.View):
                     spacing=24,
                     controls=[
                         ft.Text(
-                            "NewNRJ",
-                            size=48,
+                            "Up U!",
+                            size=54,
                             weight=ft.FontWeight.BOLD,
                             color="#00C853",
                         ),
                         ft.Text(
-                            "Build new habits. Boost your energy.",
+                            f"v 0.0.3",
+                            size=12,
+                            color="#FFFFFF",
+                            text_align=ft.TextAlign.CENTER,
+                            margin=ft.margin.only(top=-42, left=20)
+                        ),
+                        ft.Text(
+                            "Build new habits, boost your energy!",
                             size=16,
                             color="#FFFFFF",
                             text_align=ft.TextAlign.CENTER,
@@ -42,6 +49,6 @@ class OnboardingView(ft.View):
                         ),
                     ],
                 ),
-                alignment=ft.Alignment.CENTER
+                alignment=ft.Alignment.CENTER,
             )
         ]
