@@ -1,4 +1,4 @@
-# NewNRJ — MVP Habits & Energy App
+# NewNRJ.com — MVP Habits & Energy App
 
 ## 📘 Mini Cahier des Charges — MVP NewNRJ
 
@@ -86,7 +86,8 @@ Juste l’essentiel pour valider l’idée.
 ### Préparation
 
 * [x] Set App # 0.0.2 src/ dans nouvelle structure (Entry point = ./main)
-* [ ] 1 Enregistrer l'habit (h) en BdD (migration pdt mise au point)
+* [ ] 1 Enregistrer l'habit (H) Sport en BdD (migration pdt mise au point)
+* [ ] La Une est l'h, mais 1 lk pour aller gérer les H
 * [ ] 2 la mettre en avant dans toutes les pages (header)
 * [ ] 3 Le btn countdown fonctionnel
 * [ ] → Refaire marcher l'app du compteur sport, selon la nouvelle procédure

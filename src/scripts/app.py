@@ -119,7 +119,7 @@ class App:
     def sport_duration(self) -> int:
 
         j = datetime.now().day
-        duree = j * 15
+        duree = j * 15 + 345
         # print(duree)
         # duree = 15
 
