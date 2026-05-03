@@ -1,6 +1,6 @@
 import flet as ft
 
-from src.nnrj.controllers.habit_controller import HabitController
+from nnrj.controllers.habit_controller import HabitController
 
 
 class HabitListView(ft.View):

@@ -1,7 +1,7 @@
 import flet as ft
 
-from src.nnrj.views.habit_list_view import HabitListView
-from src.nnrj.views.onboarding_view import OnboardingView
+from nnrj.views.habit_list_view import HabitListView
+from nnrj.views.onboarding_view import OnboardingView
 
 
 class AppController:
@@ -12,17 +12,18 @@ class AppController:
         self._setup()
 
     def _setup(self):
-        self.page.theme_mode = ft.ThemeMode.DARK
-        self.page.bgcolor = "#07112E"
         self.page.on_route_change = self._route_change
         self._render_route(self.page.route or "/")
 
     def _route_change(self, e: ft.RouteChangeEvent):
+        print(e.route)
         self._render_route(e.route or "/")
 
     def _render_route(self, raw_route: str):
         self.page.views.clear()
         route = raw_route.split("?")[0]
+
+        print(f"Parsed route: {route}")
 
         if route == "/":
             self.page.views.append(OnboardingView(self.page, self))

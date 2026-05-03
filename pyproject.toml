@@ -1,6 +1,6 @@
 
 [project]
-name = "UpU"
+name = "Up_U000003"
 version = "0.0.3"
 description = "Up U!"
 readme = "README.md"
@@ -23,7 +23,7 @@ compile.cleanup = true
 build_number = 1
 
 [tool.flet.app]
-path = "."
+path = "src"
 
 
 [tool.flet.android]

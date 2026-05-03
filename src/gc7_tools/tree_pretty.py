@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 from typing import Iterable
 
-DEFAULT_EXCLUDES = {".git", ".venv", '.vscode', '__pycache__'}
+DEFAULT_EXCLUDES = {".git", ".venv", ".vscode", "build", "__pycache__"}
 
 
 def iter_children(path: Path, excluded_names: set[str]) -> list[Path]:

@@ -1,5 +1,5 @@
-from src.nnrj.models.habit import Habit
-from src.nnrj.services.db_service import DBService
+from nnrj.models.habit import Habit
+from nnrj.services.db_service import DBService
 
 
 class HabitService:
