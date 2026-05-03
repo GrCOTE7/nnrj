@@ -1,6 +1,6 @@
 import flet as ft
 from typing import Callable
-from tools.constants import theme
+from .constants import theme
 
 
 def get_colors_theme(page: ft.Page) -> dict:
@@ -126,7 +126,8 @@ def gc7_rules(
     name: str = "Ready",
     left: int = 1912,
     # left: int = 1520,  # 1912 - 392
-    width: int = 392,
+    # width: int = 392,
+    width: int = 400,
     height: int = 1088,
     defaultColors: bool = True,
 ) -> None:
