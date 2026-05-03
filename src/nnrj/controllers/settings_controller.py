@@ -1,6 +1,6 @@
 import flet as ft
 
-from services.i18n_service import I18nService
+from src.nnrj.services.i18n_service import I18nService
 
 
 class SettingsController:

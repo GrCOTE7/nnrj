@@ -1,8 +1,8 @@
 import flet as ft
 
-import src.tools.gc7 as gc7
-import src.tools.screen_utils as screen_utils
-from controllers.app_controller import AppController
+import src.gc7_tools.gc7 as gc7
+import src.gc7_tools.screen_utils as screen_utils
+from src.nnrj.controllers.app_controller import AppController
 
 APP_NAME = "Up U!"
 VERSION = "0.0.3"

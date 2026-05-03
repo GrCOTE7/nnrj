@@ -1,5 +1,5 @@
-from models.habit import Habit
-from services.habit_service import HabitService
+from src.nnrj.models.habit import Habit
+from src.nnrj.services.habit_service import HabitService
 
 
 class HabitController:

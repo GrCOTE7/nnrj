@@ -1,6 +1,6 @@
 import flet as ft
 
-from controllers.settings_controller import SettingsController
+from src.nnrj.controllers.settings_controller import SettingsController
 
 
 class SettingsView(ft.View):

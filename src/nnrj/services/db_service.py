@@ -2,7 +2,7 @@ import json
 import sqlite3
 from datetime import date
 
-from models.habit import Habit
+from src.nnrj.models.habit import Habit
 
 DB_PATH = "newnrj.db"
 

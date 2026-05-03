@@ -1,9 +1,9 @@
 import flet as ft
 
-import src.tools.gc7 as gc7
-import src.tools.home_ui as home_ui
-import src.tools.locale_utils as locale_utils
-import src.tools.screen_utils as screen_utils
+import src.gc7_tools.gc7 as gc7
+import src.gc7_tools.home_ui as home_ui
+import src.gc7_tools.locale_utils as locale_utils
+import src.gc7_tools.screen_utils as screen_utils
 
 APP_NAME = "Sport 2026"
 SPORT_VERSION = "0.0.1"

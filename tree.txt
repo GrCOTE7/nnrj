@@ -1,0 +1,57 @@
+C:\nnrj
+├── src
+│   ├── assets
+│   │   ├── icons
+│   │   └── imgs
+│   ├── controllers
+│   │   ├── app_controller.py
+│   │   ├── habit_controller.py
+│   │   └── settings_controller.py
+│   ├── gc7_tools
+│   │   ├── __init__.py
+│   │   ├── constants.py
+│   │   ├── gc7.py
+│   │   ├── home_ui.py
+│   │   ├── locale_utils.py
+│   │   ├── screen_utils.py
+│   │   └── tree_pretty.py
+│   ├── i18n
+│   │   ├── de.json
+│   │   ├── en.json
+│   │   ├── es.json
+│   │   └── fr.json
+│   ├── models
+│   │   └── habit.py
+│   ├── pages
+│   │   └── la_une.py
+│   ├── scripts
+│   │   ├── app.py
+│   │   └── Countdown.py
+│   ├── services
+│   │   ├── db_service.py
+│   │   ├── habit_service.py
+│   │   └── i18n_service.py
+│   ├── views
+│   │   ├── habit_checkin_view.py
+│   │   ├── habit_create_view.py
+│   │   ├── habit_history_view.py
+│   │   ├── habit_list_view.py
+│   │   ├── habit_view.py
+│   │   ├── onboarding_view.py
+│   │   └── settings_view.Py
+│   ├── __init__.py
+│   ├── apk.ps1
+│   ├── go.ps1
+│   └── main.py
+├── .gitignore
+├── apk.ps1
+├── BP.md
+├── BP_en.md
+├── BP_fr.md
+├── go.ps1
+├── ideas.md
+├── main.py
+├── newnrj.db
+├── pyproject.toml
+├── README.md
+└── uv.lock

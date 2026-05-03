@@ -1,7 +1,7 @@
 import flet as ft
 
-from views.habit_list_view import HabitListView
-from views.onboarding_view import OnboardingView
+from src.nnrj.views.habit_list_view import HabitListView
+from src.nnrj.views.onboarding_view import OnboardingView
 
 
 class AppController:
