@@ -6,10 +6,24 @@
 
 Outil **ultra‑rapide** et minimaliste pour installer, exécuter et gérer des environnements.
 
+WIN shorcuts
+
+Run local Flet App
+
+```bash
+./go
+```
+
+Buimd Mobile App
+
+```bash
+./apk
+```
+
 Run as a desktop app:
 
 ```bash
-uv run flet run
+uv run --active flet run -r
 ```
 
 Run as a web app:
