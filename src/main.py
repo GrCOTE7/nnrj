@@ -10,7 +10,7 @@ SPORT_VERSION = "0.0.2"
 
 def main(page: ft.Page):
 
-    screen_utils.gc7_rules(page, left=1912)  # 1520 ou 1912
+    screen_utils.gc7_rules(page, left=1520)  # 1520 ou 1912
     page.title = APP_NAME + " (DEPRÉCIÉ)"
 
     App(page, SPORT_VERSION)
