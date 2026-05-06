@@ -16,9 +16,7 @@ def main(page: ft.Page):
     page.title = f"{APP_NAME} - v{UpU_VERSION}"
 
     AppController(page, APP_NAME, UpU_VERSION)
-    # App(page, UpU_VERSION) # First real used app
 
-    # print(gc7.curr_time(), "-", page.route, "-", page.theme_mode, ">")
     print(curr_time(), "-", page.route, ">")
 
 

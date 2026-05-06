@@ -2,6 +2,7 @@ import flet as ft
 
 from nnrj.views.habit_list_view import HabitListView
 from nnrj.views.onboarding_view import OnboardingView
+from nnrj.views.home_view import HomeView
 
 
 class AppController:
@@ -26,6 +27,9 @@ class AppController:
         print(f"Parsed route: {route}")
 
         if route == "/":
+            self.page.views.append(HomeView(self.page, self))
+            # self.page.views.append(OnboardingView(self.page, self))
+        elif route == "/onboard":
             self.page.views.append(OnboardingView(self.page, self))
         elif route == "/habits":
             self.page.views.append(HabitListView(self.page, self))

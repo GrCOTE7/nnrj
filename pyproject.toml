@@ -1,6 +1,6 @@
 
 [project]
-name = "Up_U000003"
+name = "Up_U003"
 version = "0.0.3"
 description = "Up U!"
 readme = "README.md"
@@ -14,7 +14,7 @@ dev = ["flet[all]"]
 
 [tool.flet]
 org = "com.mycompany"
-product = "Up U!"
+product = "Up U! 003"
 company = "NewNRJ"
 copyright = "Copyright (C) 2026 by GrCOTE7"
 compile.app = true
